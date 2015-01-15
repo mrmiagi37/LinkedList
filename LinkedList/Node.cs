@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
-    class Node
+    public class Node
     {
 
         public object Content;
         public Node Next;
-
+        public Node()
+        {
+        }
     }
 }

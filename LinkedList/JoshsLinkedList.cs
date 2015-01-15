@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
-    class JoshsLinkedList
+    public class JoshsLinkedList
     {
-        private Node Head;
-        private Node Tail;
-        private int Size;
+        public Node Head;
+        public Node Tail;
+        public int Size;
         public JoshsLinkedList()
         {
             Head = null;
@@ -47,7 +47,13 @@ namespace LinkedList
                     if (count == nodePosition - 1)
                     {
                         prevNode.Next = tempNode.Next;
+                        if (nodePosition == this.Size)
+                        {
+                            this.Tail = prevNode;
+                        }
                         this.Size--;
+
+
                     }
                     prevNode = tempNode;
                     tempNode = tempNode.Next;
@@ -56,16 +62,17 @@ namespace LinkedList
         }
         public int SearchList(object Content)
         {
-            Node tempNode = this.Head;
-            for (int position = 1; position <= this.Size; position++)
+            var tempNode = new Node();
+            tempNode = this.Head;
+            for (int position = 0; position < this.Size; position++)
             {
-                if (tempNode.Content == Content)
+                if (tempNode.Content.Equals(Content))
                 {
                     return position;
                 }
                 tempNode = tempNode.Next;
             }
-            return 0;
+            return -1;
         }
 
     }

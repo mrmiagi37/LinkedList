@@ -1,0 +1,7 @@
+E:\Users\Michelle\Documents\Visual Studio 2012\Projects\LinkedList\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+E:\Users\Michelle\Documents\Visual Studio 2012\Projects\LinkedList\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+E:\Users\Michelle\Documents\Visual Studio 2012\Projects\LinkedList\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+E:\Users\Michelle\Documents\Visual Studio 2012\Projects\LinkedList\UnitTestProject1\bin\Debug\LinkedList.exe
+E:\Users\Michelle\Documents\Visual Studio 2012\Projects\LinkedList\UnitTestProject1\bin\Debug\LinkedList.pdb
+E:\Users\Michelle\Documents\Visual Studio 2012\Projects\LinkedList\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+E:\Users\Michelle\Documents\Visual Studio 2012\Projects\LinkedList\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
