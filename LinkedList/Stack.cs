@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
-    class Program
+    class Stack
     {
-      
-
-        static void Main(string[] args)
-        { 
-        }
     }
 }
